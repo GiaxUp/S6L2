@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>S6L2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <script src="https://kit.fontawesome.com/673e01a1a3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand""><i class=" bi bi-airplane-fill"></i> Giacs Travels</a>
+            <div class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" aria-current="page"">Home</a>
+                    </li>
+                    <li class=" nav-item">
+                            <a class="nav-link text-secondary"">Saldi</a>
+                    </li>
+                    <li class=" nav-item">
+                                <a class="nav-link text-secondary"">Welcome Summer</a>
+                    </li>
+                    <li class=" nav-item">
+                                    <a class="nav-link text-secondary"">Last Minute</a>
+                    </li>
+                    <li class=" nav-item">
+                                        <a class="nav-link text-secondary"">Recensioni</a>
+                    </li>
+                </ul>
+                <form class=" d-flex" role="search">
+                                            <input class="form-control me-2" type="search"
+                                                placeholder="Cerca posti da sogno" aria-label="Search" />
+                                            <div class="btn btn-outline-danger" type="submit">Cerca</div>
+                                            </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Header -->
+    <main>
+        <div class="container">
+            <div class="row shadow p-3 my-5 bg-body-tertiary rounded">
+                <div class="col my-5">
+                    <h1 class="fs-1 d-flex align-items-center">
+                        <span class="me-2">Giacs Travels </span>
+                        <span class="fs-5 fw-light text-secondary-emphasis"> - Feel the Freedom </span>
+                    </h1>
+                    <hr />
+                    <p class="fst-italic text-secondary fs-4">
+                        Scopri le destinazioni più calde del momento!
+                    </p>
+                    <div class="btn btn-info text-light fw-bolder mt-4">
+                        Prenota ora
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Saldi -->
+        <div class="container my-3">
+            <div class="row">
+                <div class="col col-12 d-flex justify-content-between my-3 py-2">
+                    <h2>Saldi</h2>
+                    <div class="btn text-info">
+                        Nascondi sezione
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-2 row-cols-md-3 row-cols-xl-4">
+                <div class="col">
+                    <div class="card border border-3 border-info rounded-3">
+                        <img src="https://i.picsum.photos/id/960/300/200.jpg?hmac=e8jQhzcKmxP_cfvhg89LV0TmBr07sCNT-q1UxqyEHgo"
+                            class="card-img-top" alt="Wadi Rum, Jordan" />
+                        <div class="card-body">
+                            <h5 class="card-title">Wadi Rum, Jordan</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Consequatur officiis fuga quis reiciendis ipsum.
+                            </p>
+                            <a class="btn btn-info">Prenota</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border border-3 border-info rounded-3">
+                        <img src="https://i.picsum.photos/id/213/300/200.jpg?hmac=UrAZC-4NBFX-GIcFNJ1DitT2H41rkTYa8wEjKF8AWXs"
+                            class="card-img-top" alt="Antarctica" />
+                        <div class="card-body">
+                            <h5 class="card-title">Antarctica</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Consequatur officiis fuga quis reiciendis ipsum.
+                            </p>
+                            <a class="btn btn-info">Prenota</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class=" card border border-3 border-info rounded-3">
+                        <img src="https://i.picsum.photos/id/729/300/200.jpg?hmac=2p2e1hIMMxSOeNMM9Sz07XXEKmGYC45iO6_McEIXVRQ"
+                            class="card-img-top" alt="Parigi" />
+                        <div class="card-body">
+                            <h5 class="card-title">Parigi</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Consequatur officiis fuga quis reiciendis ipsum.
+                            </p>
+                            <a class="btn btn-info">Prenota</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-md-none d-xl-block">
+                    <div class="card border border-3 border-info rounded-3">
+                        <img src="https://i.picsum.photos/id/992/300/200.jpg?hmac=w137wSlXMe7QugWkdz2qvxFlif1dwEWqNnv4qFIyWps"
+                            class="card-img-top" alt="Taiwan" />
+                        <div class="card-body">
+                            <h5 class="card-title">Taiwan</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Consequatur officiis fuga quis reiciendis ipsum.
+                            </p>
+                            <a class="btn btn-info">Prenota</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-3">
+            <div class="row">
+                <div class="col col-12 d-flex justify-content-between my-3 py-2">
+                    <h2>Welcome Summer</h2>
+                    <div class="btn text-info">
+                        Nascondi sezione
+                    </div>
+                </div>
+            </div>
+            <!-- card più grandi -->
+            <div class="row row-cols-2 row-cols-xl-3 row-cols-xxl-3">
+                <div class="col">
+                    <div class="card border-0 position-relative shadow-lg">
+                        <img src="https://i.picsum.photos/id/548/400/200.jpg?hmac=lX-VaL_0F5SP0aDQgXNKoFlou8dzWYEqVJEJ6SPhPP0"
+                            class="card-img-top" alt="Roma" />
+                        <div class="card-body">
+                            <h5 class="card-title">Roma</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Molestias quod eaque tenetur accusamus optio porro voluptate
+                                consequatur perferendis in quaerat quis temporibus distinctio.
+                            </p>
+                            <a class="btn btn-primary">Prenota</a>
+                            <span
+                                class="position-absolute mt-3 mt-3 top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                HOT
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 position-relative shadow-lg">
+                        <img src="https://i.picsum.photos/id/408/400/200.jpg?hmac=uMDEZiieg9tCpPYW5dfcV8DB7DH00z0CodmeqFfhg0c"
+                            class="card-img-top" alt="Cagliari" />
+                        <div class="card-body">
+                            <h5 class="card-title">Cagliari</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Molestias quod eaque tenetur accusamus optio porro voluptate
+                                consequatur perferendis in quaerat quis temporibus distinctio.
+                            </p>
+                            <a class="btn btn-primary">Prenota</a>
+                            <span
+                                class="position-absolute mt-3 top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                HOT
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 position-relative shadow-lg">
+                        <img src="https://i.picsum.photos/id/764/400/200.jpg?hmac=StnQ3PIQM4z8K-nyCS-7304W4Z7KhAtPaSZjZ0ghD2s"
+                            class="card-img-top" alt="Napoli" />
+                        <div class="card-body">
+                            <h5 class="card-title">Napoli</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Molestias quod eaque tenetur accusamus optio porro voluptate
+                                consequatur perferendis in quaerat quis temporibus distinctio.
+                            </p>
+                            <a class="btn btn-primary">Prenota</a>
+                            <span
+                                class="position-absolute mt-3 top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                HOT
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 position-relative shadow-lg">
+                        <img src="https://i.picsum.photos/id/829/400/200.jpg?hmac=06M86QYqnI_Hgmx1B5NlKvNgRqciA1LW7ZFuJNch2is"
+                            class="card-img-top" alt="Lucca" />
+                        <div class="card-body">
+                            <h5 class="card-title">Lucca</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Molestias quod eaque tenetur accusamus optio porro voluptate
+                                consequatur perferendis in quaerat quis temporibus distinctio.
+                            </p>
+                            <a class="btn btn-primary">Prenota</a>
+                            <span
+                                class="position-absolute mt-3 top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                HOT
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 position-relative shadow-lg">
+                        <img src="https://i.picsum.photos/id/591/400/200.jpg?hmac=H6clW3Yfx7svb__9X3BLFLZ7w0en_3c8brZCN_EM5Vw"
+                            class="card-img-top" alt="Firenze" />
+                        <div class="card-body">
+                            <h5 class="card-title">Firenze</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Molestias quod eaque tenetur accusamus optio porro voluptate
+                                consequatur perferendis in quaerat quis temporibus distinctio.
+                            </p>
+                            <a class="btn btn-primary">Prenota</a>
+                            <span
+                                class="position-absolute mt-3 top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                HOT
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 position-relative shadow-lg">
+                        <img src="https://i.picsum.photos/id/896/400/200.jpg?hmac=2wxyFgxBelC4CeqcWQ04Cfg6xSwfqve4xZjXwtWNG6Y"
+                            class="card-img-top" alt="Pescara" />
+                        <div class="card-body">
+                            <h5 class="card-title">Pescara</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Molestias quod eaque tenetur accusamus optio porro voluptate
+                                consequatur perferendis in quaerat quis temporibus distinctio.
+                            </p>
+                            <a class="btn btn-primary">Prenota</a>
+                            <span
+                                class="position-absolute mt-3 top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                HOT
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-3 d-none d-sm-block">
+            <div class="row">
+                <div class="col col-12">
+                    <h2>Offerta del giorno</h2>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col col-6 col-md-8 shadow rounded-2">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1200px-Colosseo_2020.jpg"
+                        alt="Colosseo" class="w-100 rounded-2" />
+                </div>
+                <div class="col col-6 col-md-4">
+                    <p class="fs-1">Colosseo</p>
+                    <p class="font-monospace fs-6">17.01.2023 - 31.01.2023</p>
+                    <p class="lead fs-3">
+                        Appartamenti nelle vicinanze a partire da 500€, non fartele sfuggire!
+                    </p>
+                    <span class="badge text-bg-dark fs-5 rounded-pill">Best offer</span>
+                </div>
+            </div>
+        </div>
+        <div class="container my-3">
+            <div class="row">
+                <div class="col col-12">
+                    <h2>Last Minute</h2>
+                </div>
+            </div>
+            <div class="row row-cols-3 row-cols-md-6">
+                <div class="col card border-0">
+                    <img src="https://i.picsum.photos/id/418/200/100.jpg?hmac=O7-VntlS33NL3Sx5Wqx_iFbCkg8MYTCULXuTdNIbf9k"
+                        alt="Random" class="w-100 rounded-4" />
+                </div>
+                <div class="col card border-0">
+                    <img src="https://i.picsum.photos/id/418/200/100.jpg?hmac=O7-VntlS33NL3Sx5Wqx_iFbCkg8MYTCULXuTdNIbf9k"
+                        alt="Random" class="w-100 rounded-4" />
+                </div>
+                <div class="col card border-0">
+                    <img src="https://i.picsum.photos/id/418/200/100.jpg?hmac=O7-VntlS33NL3Sx5Wqx_iFbCkg8MYTCULXuTdNIbf9k"
+                        alt="Random" class="w-100 rounded-4" />
+                </div>
+                <div class="col card border-0">
+                    <img src="https://i.picsum.photos/id/418/200/100.jpg?hmac=O7-VntlS33NL3Sx5Wqx_iFbCkg8MYTCULXuTdNIbf9k"
+                        alt="Random" class="w-100 rounded-4" />
+                </div>
+                <div class="col card border-0">
+                    <img src="https://i.picsum.photos/id/418/200/100.jpg?hmac=O7-VntlS33NL3Sx5Wqx_iFbCkg8MYTCULXuTdNIbf9k"
+                        alt="Random" class="w-100 rounded-4" />
+                </div>
+                <div class="col card border-0">
+                    <img src="https://i.picsum.photos/id/418/200/100.jpg?hmac=O7-VntlS33NL3Sx5Wqx_iFbCkg8MYTCULXuTdNIbf9k"
+                        alt="Random" class="w-100 rounded-4" />
+                </div>
+            </div>
+        </div>
+    </main>
+    <aside>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col col-12">
+                    <h2 class="text-center">Dicono di noi</h2>
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col col-1">
+                    <div class="text-secondary border border-1 border-info rounded-circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-emoji-smile"
+                            viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                            <path fill-rule="evenodd"
+                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="col col-11">
+                    <h5>Username</h5>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque,
+                        quas. Non voluptate hic, quam asperiores eveniet natus
+                        consequuntur impedit unde, voluptas commodi quaerat qui laboriosam
+                        officiis sint voluptates perferendis incidunt. Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. Porro, recusandae id.
+                        Tempora repellat quae voluptatum reiciendis earum explicabo culpa
+                        corporis perferendis, pariatur est iusto quis animi ullam, minima
+                        distinctio consequatur.
+                    </p>
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col col-1">
+                    <div class="text-secondary border border-1 border-info rounded-circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-emoji-smile"
+                            viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                            <path fill-rule="evenodd"
+                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="col col-11">
+                    <h5>Username</h5>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque,
+                        quas. Non voluptate hic, quam asperiores eveniet natus
+                        consequuntur impedit unde, voluptas commodi quaerat qui laboriosam
+                        officiis sint voluptates perferendis incidunt. Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. Porro, recusandae id.
+                        Tempora repellat quae voluptatum reiciendis earum explicabo culpa
+                        corporis perferendis, pariatur est iusto quis animi ullam, minima
+                        distinctio consequatur.
+                    </p>
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col col-1">
+                    <div class="text-secondary border border-1 border-info rounded-circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-person-circle"
+                            viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                            <path fill-rule="evenodd"
+                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="col col-11">
+                    <h5>Username</h5>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque,
+                        quas. Non voluptate hic, quam asperiores eveniet natus
+                        consequuntur impedit unde, voluptas commodi quaerat qui laboriosam
+                        officiis sint voluptates perferendis incidunt. Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. Porro, recusandae id.
+                        Tempora repellat quae voluptatum reiciendis earum explicabo culpa
+                        corporis perferendis, pariatur est iusto quis animi ullam, minima
+                        distinctio consequatur.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <footer class="text-bg-dark d-flex flex-column justify-content-center align-items-center py-4">
+        <div class="btn btn-outline-secondary mb-3">Contattaci</div>
+        <p>&copy 2023 Giacs Travel Agency. All Rights Reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
